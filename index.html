@@ -6,48 +6,69 @@
     <title>Our interesting site</title>
     <link rel="stylesheet" href="https://unpkg.com/7.css">
     <script src="script.js" defer></script>
+    
 </head>
 <body>
- <div class="window">
-    <div class="title-bar">
-        <div class="title-bar-text" style="padding-top: 8px; padding-bottom: 1px;">Welcome to Our Interesting Site</div>
-        <div class="title-bar-controls">
-            <button aria-label="Minimize"></button>
-            <button aria-label="Maximize"></button>
-            <button aria-label="Close"></button>
+    <div class="window">
+        <div class="title-bar">
+            <div class="title-bar-text" style="padding-top: 8px; padding-bottom: 1px;">Welcome to Our Interesting Site</div>
+            <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close"></button>
+            </div>
         </div>
-    </div>
-    <div class="window-body" style="margin: 5px; padding: 10px; text-align: center;">
-        <h1>Hello and welcome to our site!</h1>
-        <p>This site is about us and how we are making new exciting program, that could show our progress and experience without using AI really much.</p>
-        <a href="#aboutus"><button>Click to read more about us</button></a>
+        <div class="window-body" style="margin: 5px; padding: 10px; text-align: center;">
+            <h1>Hello and welcome to our site!</h1>
+            <p>This site is about us and how we are making new exciting program, that could show our progress and experience without using AI really much.</p>
+            <a href="#aboutus"><button>Click to read more about us</button></a>
 
-        <div class="window" id="aboutus" style="margin-top: 20px; text-align: left;">
-            <div class="title-bar">
-                <div class="title-bar-text">About Us</div>
-                <div class="title-bar-controls">
-                    <button aria-label="Minimize"></button>
-                    <button aria-label="Maximize"></button>
-                    <button aria-label="Close"></button>
+            <div class="window" id="aboutus" style="margin-top: 30px; text-align: left; padding: auto; width: 500px">
+                <div class="title-bar">
+                    <div class="title-bar-text">About Us</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Minimize"></button>
+                        <button aria-label="Maximize"></button>
+                        <button aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="window-body" style="margin: 5px; padding: 10px;">
+                    <h1 style="text-align: center;">Miles' Story</h1>
+                    <p>Hello, my name is Miles. You can also call me Miles Tails Delta-777 as full name or just Miles Cibis as my real name. I am a junior software developer, which loves programming on JavaScript and doing some funny stuff too.</p>
+                    <p>I always loved developing software since I was a young kid, in 2013 my dad brought me my first computer from Daugavpils, Latvia and after I started to learn programming languages and developing my own video games.</p>
+                    <p>Since I've started working on my video games, I started to learn more when I went to college. Now I have goal to create my own site or game, that can be made by our soul together.</p>
+                    
+                    <h2>My hobbies and interests:</h2>
+                    <ul>
+                        <li>I love collecting video game consoles and computers for experiments.</li>
+                        <li>Playing on musical instruments, such as: piano and acoustic guitar.</li>
+                        <li>Learning programming languages and languages for the communication. I can speak English, Russian, Estonian, Ukrainian, Swedish, Finnish and a little bit of German.</li>
+                        <li>Still learning C#, JavaScript, C, GameMaker and HTML/CSS for my future career in software development.</li>
+                        <li>Playing a bunch of different video games, literally playing everything. And also doing critic reviews for the each game.</li>
+                        <li>Love all aviation stuff and my favourite aircraft is the McDonnell Douglas DC-10/MD-11</li>
+                        <li>My favourite video games are: <em>Grand Theft Auto III</em>, <em>Grand Theft Auto: Vice City</em>, <em>Sonic Riders</em>, and <em>BeamNG.Drive</em>.</li>
+                    </ul>   
                 </div>
             </div>
-            <div class="window-body" style="margin: 5px; padding: 10px;">
-                <h1>Miles' Story:</h1>
-                <p>Hello, my name is Miles. You can also call me Miles Tails Delta-777 as full name or just Miles Cibis as real name. I am a junior software developer, which loves programming on JavaScript and doing some funny stuff too.</p>
-                <p>I always loved developing software since I was a young kid, in 2013 my dad brought me my first computer from Daugavpils, Latvia and after I started to learn programming languages and developing my own video games.</p>
-                <p></p>
+        </div>
     </div>
-
-
-
-
-
-
 
     <style>
         .window {
             width: 600px;
             margin: 50px auto;
+        }
+
+        .window-body h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        body {
+            background-image: url('images/aero.jpg');
+            background-repeat: no-repeat; 
+            background-size: cover;      
+            background-position: center; 
         }
     </style>
 
