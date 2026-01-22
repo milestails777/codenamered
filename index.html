@@ -23,6 +23,31 @@
             <p>This site is about us and how we are making new exciting program, that could show our progress and experience without using AI really much.</p>
             <a href="#aboutus"><button>Click to read more about us</button></a>
 
+            <div class="window" style="margin-top: 30px; text-align: left; padding: auto; width: 500px; height: 165px;">
+                    <div class="title-bar">
+                        <div class="title-bar-text">The Main Audio Player</div>
+                        <div class="title-bar-controls">
+                            <button aria-label="Close"></button>
+                        </div>
+                    </div>
+                    <div class="window-body" style="width: 486px; text-align: left; padding: auto;">
+                        <input type="file" id="fileInput" accept="music/*" style="width: 480px; padding-top: 10px; padding-left: 10px;">
+
+                        <audio id="player"></audio>
+
+                        <div style="padding-top: 10px; text-align: left; padding-left: 10px;">
+                            <button id="play">Play</button>
+                            <button id="pause">Pause</button>
+                            <button id="stop">Stop</button>
+                        </div>
+
+                        <label>
+                            <p style="width: 150px; padding-top: 0px; padding-left: 10px;">Volume:</p>
+                            <input id="volume" type="range" min="0" max="1" step="0.01" value="1" style="width: 145px; padding-top: 0px; padding-left: 10px;">
+                        </label>
+                    </div>
+            </div>
+
             <div class="window" id="aboutus" style="margin-top: 30px; text-align: left; padding: auto; width: 500px">
                 <div class="title-bar">
                     <div class="title-bar-text">About Us</div>
@@ -34,6 +59,7 @@
                 </div>
                 <div class="window-body" style="margin: 5px; padding: 10px;">
                     <h1 style="text-align: center;">Miles' Introduction</h1>
+                    <img src="images/milesprofile.png" alt="Miles Cibis" style="width: 150px; height: 150px; float: right; margin: 10px; border: 3px solid; border-top-color: #dfdfdf; border-left-color: #dfdfdf; border-right-color: #404040; border-bottom-color: #404040; background: #ffffff; border-radius: 0px;">
                     <p>Hello, my name is Miles. You can also call me Miles Tails Delta-777 as full name or just Miles Cibis as my real name. I am a junior software developer, which loves programming on JavaScript and doing some funny stuff too.</p>
                     <p>I always loved developing software since I was a young kid, in 2013 my dad brought me my first computer from Daugavpils, Latvia and after I started to learn programming languages and developing my own video games.</p>
                     <p>Since I've started working on my video games, I started to learn more when I went to college. Now I have goal to create my own site or game, that can be made by our soul together.</p>
@@ -49,7 +75,7 @@
                         <li>My favourite video games are: <em>Grand Theft Auto III</em>, <em>Grand Theft Auto: Vice City</em>, <em>Sonic Riders</em>, and <em>BeamNG.Drive</em>.</li>
                     </ul>
 
-                    <div class="window" style="margin-top: 30px; text-align: left; padding: auto; width: 450px; height: 250px;">
+                    <div class="window" style="margin-top: 30px; text-align: left; padding: auto; width: 450px; height: 365px;">
                     <div class="title-bar">
                         <div class="title-bar-text">Miles' Gallery</div>
                         <div class="title-bar-controls">
@@ -58,15 +84,25 @@
                             <button aria-label="Close"></button>
                         </div>
                     </div>
-
-                    <div class="window-body" style="margin: 5px; padding: 10px; height: 190px;">
-                        <ul>
-                            <li><img class="title-bar-text" src="images/123213.png" alt="Mecha Sonic" style="width: 100px; height: 100px; border: 60px; border-color: black;"></li>
-                        </ul>
+                    <div class="window-body">
+                        <p style="margin-left: 4px;">Here you can also check my gallery, there you can see my famous photos, which was made by me:</p>
+                        <div class="photo-gallery">
+                            <img src="images/123213.png" alt="Photo 1" style="width: 125px; height: 94px; margin: 5px; border: 3px solid; border-top-color: #dfdfdf; border-left-color: #dfdfdf; border-right-color: #404040; border-bottom-color: #404040; background: #ffffff; border-radius: 0px;">
+                            <img src="images/123213.png" alt="Photo 2" style="width: 125px; height: 94px; margin: 5px; border-top-color: #dfdfdf; border-left-color: #dfdfdf; border-right-color: #404040; border-bottom-color: #404040; background: #ffffff; border-radius: 0px;">
+                            <img src="images/123213.png" alt="Photo 3" style="width: 125px; height: 94px; margin: 5px; border-top-color: #dfdfdf; border-left-color: #dfdfdf; border-right-color: #404040; border-bottom-color: #404040; background: #ffffff; border-radius: 0px;">
+                            <img src="images/123213.png" alt="Photo 4" style="width: 125px; height: 94px; margin: 5px; border-top-color: #dfdfdf; border-left-color: #dfdfdf; border-right-color: #404040; border-bottom-color: #404040; background: #ffffff; border-radius: 0px;">
+                            <img src="images/123213.png" alt="Photo 5" style="width: 125px; height: 94px; margin: 5px; border-top-color: #dfdfdf; border-left-color: #dfdfdf; border-right-color: #404040; border-bottom-color: #404040; background: #ffffff; border-radius: 0px;">
+                            <img src="images/123213.png" alt="Photo 6" style="width: 125px; height: 94px; margin: 5px; border-top-color: #dfdfdf; border-left-color: #dfdfdf; border-right-color: #404040; border-bottom-color: #404040; background: #ffffff; border-radius: 0px;">
+                        <div class="status-bar" style="margin-top: 4px; padding: 0;">
+                            <p class="status-bar-field">(c) Squad Retro-8 2024-2026</p>
+                            <p class="status-bar-field">(c) Samirius Production 2015-2026</p>
+                            <p class="status-bar-field">6 file(s) element(s): Date of Creation: 22.01.2026</p>
+                        </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="window-body" style="margin: 5px; padding: 10px; border: none;">
+                <div class="window-body" style="margin: 5px; padding: 0px; border: none; box-shadow: none;">
                     <h1 style="text-align: center;">[ Red's introduction ] </h1>
                     <p>Hi hello greetings I'm other developer of this humble site, known as Red or Prism. However it's easy for you to refer to me as.</p>
                     <p>I'm one of the few people who take interest in indie games, software development and art. Either of those things are done horribly when it comes to actually doing something with them.</p>
@@ -83,7 +119,7 @@
                         <li>My top favourite games are: <em>Pokemon HeartGold</em>, <em>Plants vs. Zombies</em>, <em>DOOM</em>, and <em>The Binding of Isaac 'that one shitty game'</em>.</li>
                     </ul>
 
-                    <div class="window" style="margin-top: 30px; text-align: left; padding: auto; width: 430px; height: 250px;">
+                    <div class="window" style="margin-top: 30px; text-align: left; padding: auto; width: 450px; height: 365px;">
                     <div class="title-bar">
                         <div class="title-bar-text">[ Red's Gallery ]</div>
                         <div class="title-bar-controls">
@@ -92,11 +128,21 @@
                             <button aria-label="Close"></button>
                         </div>
                     </div>
-
-                    <div class="window-body" style="margin: 5px; padding: 10px; height: 190px;">
-                        <ul>
-                            <li><img class="title-bar-text" src="images/123213.png" alt="Mecha Sonic" style="width: 100px; height: 100px; border: 60px; border-color: black;"></li>
-                        </ul>
+                    <div class="window-body">
+                        <p style="margin-left: 4px;">Below you can take a look at the images uploaded by me (Mainly by the other developer).</p>
+                        <div class="photo-gallery">
+                            <img src="images/123213.png" alt="Photo 1" style="width: 125px; height: 94px; margin: 5px; border: 3px solid; border-top-color: #dfdfdf; border-left-color: #dfdfdf; border-right-color: #404040; border-bottom-color: #404040; background: #ffffff; border-radius: 0px;">
+                            <img src="images/123213.png" alt="Photo 2" style="width: 125px; height: 94px; margin: 5px; border-top-color: #dfdfdf; border-left-color: #dfdfdf; border-right-color: #404040; border-bottom-color: #404040; background: #ffffff; border-radius: 0px;">
+                            <img src="images/123213.png" alt="Photo 3" style="width: 125px; height: 94px; margin: 5px; border-top-color: #dfdfdf; border-left-color: #dfdfdf; border-right-color: #404040; border-bottom-color: #404040; background: #ffffff; border-radius: 0px;">
+                            <img src="images/123213.png" alt="Photo 4" style="width: 125px; height: 94px; margin: 5px; border-top-color: #dfdfdf; border-left-color: #dfdfdf; border-right-color: #404040; border-bottom-color: #404040; background: #ffffff; border-radius: 0px;">
+                            <img src="images/123213.png" alt="Photo 5" style="width: 125px; height: 94px; margin: 5px; border-top-color: #dfdfdf; border-left-color: #dfdfdf; border-right-color: #404040; border-bottom-color: #404040; background: #ffffff; border-radius: 0px;">
+                            <img src="images/123213.png" alt="Photo 6" style="width: 125px; height: 94px; margin: 5px; border-top-color: #dfdfdf; border-left-color: #dfdfdf; border-right-color: #404040; border-bottom-color: #404040; background: #ffffff; border-radius: 0px;">
+                        <div class="status-bar" style="margin-top: 4px; padding: 0;">
+                            <p class="status-bar-field">(c) Crystal Connected 2025(?)-2026</p>
+                            <p class="status-bar-field">(c) prismzdrive 2019-2026</p>
+                            <p class="status-bar-field">6 file(s) element(s): Date of Creation: 22.01.2026</p>
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -104,6 +150,9 @@
     </div>
 
     <style>
+        html {
+            zoom: 1.45;
+        }
         .window {
             width: 600px;
             margin: 50px auto;
@@ -111,13 +160,13 @@
 
         .window-body h1 {
             font-size: 24px;
-            margin-bottom: 10px;
+            margin-bottom: 50px;
         }
 
         body {
             background-image: url('images/aero.jpg');
             background-repeat: no-repeat; 
-            background-size: cover;      
+            background-size: cover;     
             background-position: center; 
         }
 
